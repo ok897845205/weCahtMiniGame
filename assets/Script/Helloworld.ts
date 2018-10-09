@@ -22,6 +22,8 @@ export default class Helloworld extends cc.Component {
         core.reactiveStore.set(core.root, "testArray", []);
         app.observer.observeInstance(this, {testIndex: 1});
         // app.observer.refreshAll();
+
+        
     }
 
     onDestroy() {
